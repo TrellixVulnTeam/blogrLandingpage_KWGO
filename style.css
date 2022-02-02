@@ -130,7 +130,7 @@ h2{
 .phone{
 	top: 30%;
 }
-	.art-h2,.font,.art-h3,.art-h2-p,.art-h3-p,.blogFooter{
+	.art-h2,.font,.art-h3,.art-h2-p,.art-h3-p{
 		display: flex !important;
 		flex-direction: column;
 		align-items: center;
@@ -148,6 +148,13 @@ h2{
 	}
 }
 @media (max-width:625px){
+	.blogFooter{
+		display: flex !important;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	
 	.phone{
 		top: 1%;
 		left: 0;
