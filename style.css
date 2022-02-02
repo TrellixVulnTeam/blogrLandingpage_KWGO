@@ -53,7 +53,7 @@ p {
 
 .cardone {
 	color: hsl(0, 0%, 100%);
-	border: 3px solid red;
+	
 	border-top-right-radius: 7rem;
 	border-bottom-left-radius: 7rem;
     background-color: hsl(237, 24%, 25%);
@@ -64,7 +64,7 @@ p {
     
 }
 .cardone-inner{
-	padding: 5.5rem 0;
+	padding: 5rem 0;
 
 }
 .cardtwo {
@@ -82,11 +82,10 @@ p {
 
 
 .phone{
-	top: -9.5rem;
 	
-	left: -7%;
-	
-   
+   position: absolute;
+   left: 10%;
+   top: 11%;
 }
 [class^='col']{
 	padding-left: 0rem;
@@ -100,10 +99,20 @@ h2{
 }
 
 /* media queries */
+
+@media (max-width:1440px){
+	.phone{
+		top: 8%;
+	}
+}
 @media (max-width:1024px){
+	.phone-img{
+	
+		width: 75%;
+		
+	}
 	.phone{
 		left: 0;
-		
 	}
 	.cardtwo{
 		
@@ -112,11 +121,16 @@ h2{
 	}
 }
 @media(max-width:768px){
-	.phone{
+	/* .phone{
 		top: -15%;
+} */
+.phone-img{
+	width: 70%;
 }
-
-	.art-h2{
+.phone{
+	top: 30%;
+}
+	.art-h2,.font,.art-h3,.art-h2-p,.art-h3-p{
 		display: flex !important;
 		flex-direction: column;
 		align-items: center;
@@ -133,20 +147,35 @@ h2{
 		background-size: contain;
 	}
 }
-@media (max-width:425px){
+@media (max-width:625px){
+	.phone{
+		top: 1%;
+		left: 0;
+	}
 	.art{
 		margin-top: 20rem;
 	}
+	.phone-img{
+		width: 100%;
+		
+	}
+	.cardone-inner{
+		padding-top: 15rem;
+	}
+}
+@media (max-width:425px){
+	
 	.phone{
-		position: absolute;
+		
 		left: 0;
-		top: -24rem;
+		top: 6%;
 		
 	
 	}
-	.cardone-inner{
-		padding-top: 13rem;
+	.phone-img{
+		width: 100%;
 	}
+	
 	.cardone{
 		/* background-position: bottom 0 top 50% left 0; */
 		background-size: cover;
@@ -168,5 +197,8 @@ h2{
 @media (max-width:375px){
 	.font{
 		font-size: .9rem;
+	}
+	.phone{
+		top: 15%;
 	}
 }
