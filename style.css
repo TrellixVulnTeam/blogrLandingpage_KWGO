@@ -20,3 +20,142 @@ ul h6{
     color: white;
     font-weight: 700;
 }
+/* sams css */
+
+* {
+	font-family: 'Overpass', sans-serif;
+}
+
+p {
+	color: hsl(207, 13%, 34%);
+}
+
+.font{
+	line-height: 2;
+	font-size: 1.2rem;
+}
+
+.container-fluid {
+	/* padding: 0px; */
+	border: 2px solid black;
+	/*text-align: center;*/
+}
+
+.cardone {
+	color: hsl(0, 0%, 100%);
+	border-top-right-radius: 7rem;
+	border-bottom-left-radius: 7rem;
+    background-color: hsl(237, 24%, 25%);
+    background-image: url(/images/bg-pattern-circles.svg);
+   background-position: bottom 16% left -57%;
+	background-repeat: no-repeat;
+	/* background-size: 70.5rem; */
+ 
+    
+}
+.cardone-inner{
+	padding: 8.3rem 0;
+
+}
+.cardtwo {
+	color: hsl(208, 49%, 26%);
+	/* border: 2px solid black; */
+	padding: 15rem 0rem;
+	background-image: url(/images/illustration-laptop-desktop.svg);
+	background-repeat: no-repeat;
+	/* background-position: left -60%; */
+	background-position: left -20.2rem bottom 50%;
+	background-size: 63rem auto;
+}
+
+
+
+
+
+.phone{
+	top: -10rem;
+	/* left: -2.7rem;  */
+	left: -7%;
+	
+   
+}
+[class^='col']{
+	padding-left: 0rem;
+	padding-right: 0rem;
+}
+.art{
+	margin-top: 10rem;
+}
+h2{
+	font-weight: 700;
+}
+
+@media (max-width:1024px){
+	.phone{
+		left: 0;
+	}
+	.cardtwo{
+		
+		
+		background-size: 50rem;
+	}
+}
+@media(max-width:768px){
+	.phone{
+		top: -15%;
+}
+
+	.art-h2{
+		display: flex !important;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.Art-text{
+   padding-right: .5rem !important;
+   padding-left: .5rem !important;
+	}
+	.cardtwo{
+		
+		
+		background-size: contain;
+	}
+}
+@media (max-width:425px){
+	.art{
+		margin-top: 20rem;
+	}
+	.phone{
+		position: absolute;
+		left: 0;
+		top: -24rem;
+		
+	
+	}
+	.cardone-inner{
+		padding-top: 13rem;
+	}
+	.cardone{
+		/* background-position: bottom 0 top 50% left 0; */
+		background-size: cover;
+		background-position: center;
+
+	}
+	/* .font{
+		font-size: 1.2rem;
+	} */
+	.cardtwo{
+		background-size: contain;
+		background-image: url(/images/illustration-laptop-mobile.svg);
+		background-position: top ;
+		padding-top: 18rem;
+		padding-bottom: 5rem;
+		margin-top: 3rem;
+	}
+}
+@media (max-width:375px){
+	.font{
+		font-size: .9rem;
+	}
+}
