@@ -1,3 +1,18 @@
+
+*,*::before,*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+	box-sizing: border-box;
+	width: 100%;
+	min-height: 100vh;
+	
+}
+
+
 .blogFooter{
     background-color:hsl(240, 10%, 16%);
     border-top-right-radius: 5rem;
@@ -35,11 +50,6 @@ p {
 	font-size: 1.2rem;
 }
 
-.container-fluid {
-	/* padding: 0px; */
-	border: 2px solid black;
-	/*text-align: center;*/
-}
 
 .cardone {
 	color: hsl(0, 0%, 100%);
@@ -49,21 +59,19 @@ p {
     background-image: url(/images/bg-pattern-circles.svg);
    background-position: bottom 16% left -57%;
 	background-repeat: no-repeat;
-	/* background-size: 70.5rem; */
- 
+	
     
 }
 .cardone-inner{
-	padding: 8.3rem 0;
+	padding: 5.5rem 0;
 
 }
 .cardtwo {
 	color: hsl(208, 49%, 26%);
-	/* border: 2px solid black; */
+	
 	padding: 15rem 0rem;
 	background-image: url(/images/illustration-laptop-desktop.svg);
 	background-repeat: no-repeat;
-	/* background-position: left -60%; */
 	background-position: left -20.2rem bottom 50%;
 	background-size: 63rem auto;
 }
@@ -73,8 +81,8 @@ p {
 
 
 .phone{
-	top: -10rem;
-	/* left: -2.7rem;  */
+	top: -9.5rem;
+	
 	left: -7%;
 	
    
@@ -90,6 +98,7 @@ h2{
 	font-weight: 700;
 }
 
+/* media queries */
 @media (max-width:1024px){
 	.phone{
 		left: 0;

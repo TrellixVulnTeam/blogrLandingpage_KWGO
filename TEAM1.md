@@ -1,5 +1,10 @@
 # The first Boostrap project
 
+##CONTRIBUTORS
+**(1) veiled-coder#7556 :Designed the footer and made some corrections for the art page designed by sam**
+
+**(2)Sam kindly put your discord id here and your role
+
 
 ## INSTRUCTIONS
 
