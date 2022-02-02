@@ -130,7 +130,7 @@ h2{
 .phone{
 	top: 30%;
 }
-	.art-h2,.font,.art-h3,.art-h2-p,.art-h3-p{
+	.art-h2,.font,.art-h3,.art-h2-p,.art-h3-p,.blogFooter{
 		display: flex !important;
 		flex-direction: column;
 		align-items: center;
