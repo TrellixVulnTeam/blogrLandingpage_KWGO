@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;400;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,500&display=swap');
+@import "_abstracts/variables";
+@import "_abstracts/customVariables";
+@import "_layout/design";
+@import "_layout/header";
+
+
+
+
+
+// to override bootstrap variables,declare the custom variables above it with exact css names.
+@import "node_modules/bootstrap/scss/bootstrap";
+

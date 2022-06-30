@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,MAAM,CAAA;EACF,gBAAgB,EAAE,GAAG;EACrB,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,MAAM;CAClB;;AACD,AAAA,MAAM,CAAA;EACL,gBAAgB,EAAC,uCAAuC,EAAE,iCACxD;EACD,mBAAmB,EAAC,MAAM;EAC1B,iBAAiB,EAAE,SAAS;CAC7B",
+    "sources": [
+        "blog.scss",
+        "_abstracts/_customVariables.scss"
+    ],
+    "names": [],
+    "file": "blog.css"
+}

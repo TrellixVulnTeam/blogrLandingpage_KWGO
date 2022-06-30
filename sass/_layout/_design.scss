@@ -1,0 +1,36 @@
+.design--img__div{
+    width: 100%;
+    height: auto;
+}
+.design--img__div img{
+    object-fit: contain;
+    width: 100%;
+   
+}
+.design--texts p{
+    font-family: $ubuntu;
+}
+@media (min-width:992px){
+    .design--texts{
+        width: 50%;
+    }
+    .design--texts__1,.design--texts__2{
+        line-height: 2;
+        font-size: 1.37vw;
+    }
+}
+@media  (max-width:767.98px) and (min-width:530.98px){
+    .design--img__div{
+        width: 70%;
+       
+    }
+}
+
+@media (min-width:768px){
+    .design--img__div{
+        width: 50%;
+       
+    }
+    
+    
+}

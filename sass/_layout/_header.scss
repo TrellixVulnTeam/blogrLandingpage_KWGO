@@ -1,0 +1,38 @@
+.blogr{
+	background-image:url(images/bg-pattern-intro-mobile.svg), linear-gradient(hsla(353, 100%, 62%, 0.726), hsla(13, 100%, 72%, 0.753) 
+		);
+		background-position:center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 90vh;
+        border-bottom-left-radius: 8rem;
+        color:white;
+        font-family: $overpass;
+}
+.blogr--btns{
+    width: 75%;
+}
+.blogr--btn__1,.blogr--btn__2,.signUp--btn{
+    border:2px solid white;
+}
+.blogr--text__1{
+    font-size: 4.3vw;
+        }
+@media (max-width:374.98px){
+            .blogr--btns{
+                width: 100%;
+            }
+        }
+@media(max-width:992px){
+    .blogr--text__1{
+font-size: 8.5vw;
+    }
+}
+@media (min-width:992px){
+    .blogr--btns{
+        width: 35%;
+    }
+    .desktop--nav__list2{
+        width: 18%;
+    }
+}
