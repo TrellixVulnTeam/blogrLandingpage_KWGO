@@ -11,7 +11,7 @@
 <body>
     <!-- font-family: 'Overpass', sans-serif; -->
 
-<header class="blogr d-flex flex-column align-items-center px-3 px-lg-7">
+<header class="blogr d-flex flex-column align-items-center px-3 px-lg-9">
 <nav class="mobile nav d-lg-none container blogr--nav w-100 d-flex justify-content-between pt-5">
     <img src="/images/logo.svg" style="width:15%;" >
     <img src="/images/icon-hamburger.svg" style="width: 9%;">
@@ -31,8 +31,8 @@
 </nav>
 
 <div class="blogr--text d-flex flex-column align-items-center  mt-10 w-100">
-    <h1 class="blogr--text__1 d-flex flex-column flex-lg-row align-items-center"><span>A modern </span> publishing platform </h1>
-    <h2 class="d-flex flex-column flex-md-row align-items-center h6 pt-3">Grow your audience and build your<span> online brand</span></h2>
+    <h1 class="blogr--text__1 d-flex flex-column d-lg-block align-items-center"><span>A modern </span> publishing platform </h1>
+    <p class="d-flex flex-column d-md-block align-items-center h6 pt-3">Grow your audience and build your<span> online brand</span></p>
 </div>
 
 <div class="blogr--btns pt-6 d-flex flex-row justify-content-between ">
@@ -43,33 +43,42 @@
 </header>
     
 
-<section class="design vh-100 pt-9   px-lg-7">
-    <h2 class="mb-5 d-flex justify-content-center">Designed for the future</h2>
+<section class="design  h-auto pt-9 pb-20  px-lg-9 position-relative">
+    <h2 class=" design--h2 mb-5 d-flex justify-content-center">Designed for the future</h2>
 
     <div class="design--content  d-flex flex-column flex-lg-row w-100 align-items-center justify-content-between">
     
     <picture class="design--img__div order-lg-2">
-     <source media="(min-width:768px)" srcset="/images/illustration-editor-desktop.svg">
-     <source media="(min-width:320px)" srcset="/images/illustration-editor-mobile.svg">
+     <source media="(min-width:768px)" srcset="/images/illustration-editor-desktop.svg" class="design--img__1">
+     <source media="(min-width:320px)" srcset="/images/illustration-editor-mobile.svg" class="design--img__2">
      <img src="/images/illustration-editor-mobile.svg">
     </picture>
 
-    <div class="design--texts order-lg-1 ">
-        <h3 class="d-flex flex-column flex-lg-row align-items-center pt-5 ">introducing an <span class="px-2">extensible editor</span></h3>
+    <div class="design--texts order-lg-1 d-flex  flex-column align-items-center align-items-lg-start ">
+        <h3 class=" design--h3 d-flex flex-column d-sm-block align-items-center pt-5 ">introducing an <span>extensible editor</span></h3>
         <p class="design--texts__1 d-flex flex-column  align-items-center d-lg-block pt-4"> Blogr features an exceedingly intuitive <span>interface which lets you focus on one</span>
         thing:creating content. The editor<span> supports management of multiple blogs</span>
         and allows easy manipulation of embeds<span> such as images, videos, and Markdown</span>
         Extensibility with plugins and themes<span> provide easy ways to add functionality or </span>change the looks of a blog.
         </p>
-        <h3 class="d-flex flex-column flex-lg-row align-items-center pt-5 ">Robust content <span class="px-2">management</span></h3>
-        <p class="design--texts__2 d-flex flex-column align-items-center d-lg-block pt-4"> Blogr features an exceedingly intuitive <span>interface which lets you focus on one</span>
-        thing:creating content. The editor<span>supports management of multiple blogs</span>
-        and allows easy manipulation of embeds<span>such as images, videos, and Markdown</span>
-        Extensibility with plugins and themes<span>provide easy ways to add functionality or </span>change the looks of a blog.
+        <h3 class="design--h3 d-flex flex-column d-sm-block align-items-center pt-5 "><span>Robust content </span>management</h3>
+        <p class="design--texts__2 d-flex flex-column align-items-center d-lg-block pt-4">Flexible content management enables <span>users to easily move through posts.</span> Increase the usability of your blog by <span>adding customized
+        categories, sections,</span> format, or flow. With this functionality, <span>you're in full control.</span>
         </p>
     </div>
 
     </div>
 </section>
+
+<section class="art  pt-4  px-lg-6 d-flex flex-column flex-lg-row align-items-center position-relative">
+    <div class="art--phonediv order-1"><img src="/images/illustration-phones.svg" class="phone"></div>
+    <div class="art--texts pb-10 order-2 d-lg-flex flex-column justify-content-center">
+    <h3 class="art--h2 d-flex flex-column d-lg-block align-items-center">State of the Art<span> infrastructure</span></h3>
+    <p class="art--p d-flex flex-column align-items-center d-lg-block ">With reliability and speed in mind,<span>worldwide data centers provide the</span>
+    backbone for the ultra-fast connectivity. This<span> ensures your site will load instantly,no</span>
+matter where your readers are, keeping<span> your site competitive.</span></p>
+</div>
+</section>
+
 </body>
 </html>

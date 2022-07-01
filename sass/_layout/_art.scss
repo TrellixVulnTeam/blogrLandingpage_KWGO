@@ -1,0 +1,91 @@
+.art{
+background-image: url(/images/bg-pattern-circles.svg),linear-gradient(hsl(237, 17%, 21%),hsl(237, 23%, 32%));
+border-top-right-radius: 5rem;
+border-bottom-left-radius: 5rem;
+color: white;
+
+}
+.art--phonediv{
+    width: 100%;
+    position: absolute;
+    top: -26%;
+}
+.art--phonediv img{
+    width: 100%;
+    object-fit: cover;
+}
+.art--texts{
+    padding-top: 55%;
+}
+.art--h2{
+    color: white;
+    font-size:9.5vw ;
+    font-weight: 400;
+}
+
+
+@media (min-width:465px){
+    .art--phoediv{
+        top: -30%;
+    }
+}
+@media (min-width:500px){
+    .art--phonediv{
+        top: -35%;
+    }
+    .art--h2{
+        font-size: 7vw;
+    }
+    
+}
+
+@media (min-width:540px){
+    .art--phonediv{
+        
+        width: 88%;
+    }
+    .art--texts{
+                 padding-top: 45%;
+            }
+
+}
+
+@media (min-width:660px){
+    .art--phonediv{
+  
+        width: 80%;
+        
+    }
+    
+}
+@media (min-width:768px){
+    .art--phonediv{
+        width: 70%;
+        top: -26%;
+    }
+}
+@media (min-width:992px){
+    .art{
+        height: 50vh;
+    }
+    .art--texts{
+        width: 50%;
+        height: 100%;
+        padding: 0;
+      
+    }
+    
+    .art--h2{
+        font-size: 2.5vw;
+    }
+    .art--phonediv{
+        width: 48%;
+        height: 100%;
+        position: relative;
+        top: -5rem;
+        
+    }
+    .art--p{
+        font-size: 1.45vw;
+    }
+}

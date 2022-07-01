@@ -8,24 +8,22 @@
    
 }
 .design--texts p{
-    font-family: $ubuntu;
+    
+    color: hsl(207, 13%, 34%);
 }
-@media (min-width:992px){
-    .design--texts{
-        width: 50%;
-    }
-    .design--texts__1,.design--texts__2{
-        line-height: 2;
-        font-size: 1.37vw;
-    }
+.design--texts__1,.design--texts__2{
+       
+    line-height: 2;
 }
+// when it comes to min-width arrangement the lower position has precedenec...992px has
+// precedence over 768px cus 992 is below it in position
+// or just arrange from lowest number to highest number
 @media  (max-width:767.98px) and (min-width:530.98px){
     .design--img__div{
         width: 70%;
        
     }
 }
-
 @media (min-width:768px){
     .design--img__div{
         width: 50%;
@@ -34,3 +32,27 @@
     
     
 }
+
+@media (min-width:992px){
+    .design--texts{
+        width: 50%;
+    }
+    .design--texts__1,.design--texts__2{
+       
+        font-size: 1.37vw;
+    }
+  
+    
+    .design--img__div{
+        position: absolute;
+        top: 4rem;
+        right: -13rem;
+        width: 60%;
+  
+        
+        
+    }
+}
+
+
+

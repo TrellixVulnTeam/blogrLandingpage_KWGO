@@ -1,0 +1,28 @@
+body{
+    box-sizing: border-box;
+    max-width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+h3,h2{
+    color: hsl(208, 49%, 24%);
+    font-family: $overpass;
+}
+p{
+    font-family: $overpass;
+    line-height: 2;
+    // letter-spacing: .04rem;
+    font-weight: 300;
+}
+@media (max-width:991.98px)and (min-width:550px){
+    p{
+        font-size:3vw ;
+    }
+    // for the design section
+    .design--h3{
+        font-size: 3vw;
+    }
+    .design--h2{
+        font-size: 5vw;
+    }
+}
