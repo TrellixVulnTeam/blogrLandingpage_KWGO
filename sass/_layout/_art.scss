@@ -3,7 +3,7 @@ background-image: url(/images/bg-pattern-circles.svg),linear-gradient(hsl(237, 1
 border-top-right-radius: 5rem;
 border-bottom-left-radius: 5rem;
 color: white;
-
+display: none;
 }
 .art--phonediv{
     width: 100%;
@@ -16,6 +16,7 @@ color: white;
 }
 .art--texts{
     padding-top: 55%;
+    
 }
 .art--h2{
     color: white;
@@ -82,10 +83,24 @@ color: white;
         width: 48%;
         height: 100%;
         position: relative;
-        top: -5rem;
+        top: -40%;
         
     }
     .art--p{
         font-size: 1.45vw;
     }
+}
+
+@media (min-width:1300px){
+    .art{
+        height: 40vh;
+    }
+    .art--texts{
+        padding: 0;
+        height: 100%;
+    }
+ .art--phonediv{
+     top: -85%;
+ }  
+    
 }

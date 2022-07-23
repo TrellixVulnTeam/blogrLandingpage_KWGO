@@ -1,0 +1,55 @@
+.free{
+    overflow-x: hidden;
+    
+  
+}
+.free--picture{
+    width: 100%;
+    height: auto;
+ 
+}
+.free--laptopImg{
+    width:100%;
+}
+.free--textsDiv p{
+  color: hsl(207, 13%, 34%);;
+}
+@media(min-width:500px){
+    .free--picture{
+        width: 90%;
+    }
+} 
+
+@media(min-width:700px){
+    .free--picture{
+        width: 70%;
+    }
+}
+@media (min-width:992px){
+ .free{
+     height: 100vh;
+ }
+    .free--text{
+       
+        font-size: 1.37vw;
+    }
+  
+    .free--textsDiv{
+        width: 50%;
+        padding: 0;
+    }
+    .free--picture{
+        width: 50%;
+    height: 75%;
+    }
+   .free--laptopImg{
+       width: auto;
+       position: absolute;
+    //    top: 10rem;
+       left: -44%;
+       height: 100%;
+   } 
+}
+
+
+

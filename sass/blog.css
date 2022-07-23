@@ -27,7 +27,8 @@ p {
   background-image: url(/images/bg-pattern-circles.svg), linear-gradient(#2c2d3f, #3f4164);
   border-top-right-radius: 5rem;
   border-bottom-left-radius: 5rem;
-  color: white; }
+  color: white;
+  display: none; }
 
 .art--phonediv {
   width: 100%;
@@ -84,9 +85,21 @@ p {
     width: 48%;
     height: 100%;
     position: relative;
-    top: -5rem; }
+    top: -40%; }
   .art--p {
     font-size: 1.45vw; } }
+
+@media (min-width: 1300px) {
+  .art {
+    height: 40vh; }
+  .art--texts {
+    padding: 0;
+    height: 100%; }
+  .art--phonediv {
+    top: -85%; } }
+
+.design {
+  overflow-x: hidden; }
 
 .design--img__div {
   width: 100%;
@@ -120,6 +133,44 @@ p {
     top: 4rem;
     right: -13rem;
     width: 60%; } }
+
+.free {
+  overflow-x: hidden; }
+
+.free--picture {
+  width: 100%;
+  height: auto; }
+
+.free--laptopImg {
+  width: 100%; }
+
+.free--textsDiv p {
+  color: #4b5862; }
+
+@media (min-width: 500px) {
+  .free--picture {
+    width: 90%; } }
+
+@media (min-width: 700px) {
+  .free--picture {
+    width: 70%; } }
+
+@media (min-width: 992px) {
+  .free {
+    height: 100vh; }
+  .free--text {
+    font-size: 1.37vw; }
+  .free--textsDiv {
+    width: 50%;
+    padding: 0; }
+  .free--picture {
+    width: 50%;
+    height: 75%; }
+  .free--laptopImg {
+    width: auto;
+    position: absolute;
+    left: -44%;
+    height: 100%; } }
 
 .blogr {
   background-image: url(images/bg-pattern-intro-mobile.svg), linear-gradient(rgba(255, 61, 84, 0.726), rgba(255, 143, 112, 0.753));
